@@ -9,7 +9,7 @@
 	text-transform: uppercase;
 	display: inline-block;
 	padding: 20px 30px;
-	margin-top: 0px;
+	margin-top: 0;
 	width: 100%;
 	text-align: center;
 	margin-bottom: 20px;
@@ -48,6 +48,7 @@
 body {
   font-family: 'Merriweather', serif;
   color: #2d3945;
+  background-image: url(../images/dots-blue.gif);
 }
 
 form {
@@ -141,9 +142,6 @@ label.list {
   display: inline;
 }
 
-
-
-
 footer p {
 	text-align: center;
 	color: #ccc;
@@ -161,11 +159,10 @@ textarea {
 	  height: 120px;
 }
 
-
-@media screen and (min-width: 960px){
+@media screen and (min-width: 769px){
 
 	form {
-	  width: 50%;
+	  width: 60%;
 	}
   
  }
