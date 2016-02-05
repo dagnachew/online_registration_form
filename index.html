@@ -25,7 +25,7 @@
 			<input type="text" id="address" name="user_address">
 		  <label for="city">City</label>
 			<input type="text" id="city" name="user_city">
-		<label for="state">State</label>
+		<label>State</label>
 			<select name="state" size="1">
 				<option selected value="">Choose State</option>
 				<option value="ZZ">None</option>
@@ -85,15 +85,16 @@
         </fieldset>
         <fieldset>  
           <legend class="newsletter"> Newsletter</legend>
-			<label for="newsletter" id="newsletter">Select the newsletters you would like to reveive</label>                      
-			<input type="checkbox" checked id="html" value="newsletter"><label for="html" class="list">HTML News</label><br />
+			<label id="newsletter">Select the newsletters you would like to reveive</label>                      
+			<input type="checkbox" checked id="news" value="newsletter"><label for="news" class="list">HTML News</label><br />
 			<input type="checkbox" id="css" value="newsletter"><label for="css" class="list">CSS News</label> <br />
 			<input type="checkbox" id="javascript" value="newsletter"><label for="javascript" class="list">Javascript News</label><br />
-          <label class="space-above" for="format">Newsletter format</label> <br />                     
+          <label class="space-above">Newsletter format</label> <br />                     
 			<input type="radio" checked id="html" name="format"><label for="html" class="list">HTML</label><br />
 			<input type="radio" id="plain_text" name="format"><label for="plain_text" class="list">Plain Text</label><br />
 		  <label class="space-above"> Other topics you'd like to hear about</label>
-		  <textarea>  </textarea>
+		  <textarea name="textarea" rows="10" cols="50"> Please type your topics here 
+		  </textarea>
 		   
           <button type="submit">Sign up</button>
 		  </fieldset>

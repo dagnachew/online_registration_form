@@ -159,10 +159,18 @@ textarea {
 	  height: 120px;
 }
 
-@media screen and (min-width: 769px){
+@media screen and (max-width: 480px){
 
 	form {
-	  width: 60%;
+	  width: 90%;
+	}
+  
+ }
+
+@media screen and (min-width: 760px){
+
+	form {
+	  width: 55%;
 	}
   
  }
